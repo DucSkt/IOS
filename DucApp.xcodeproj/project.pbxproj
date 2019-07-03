@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		064B040F22CD04900030D2C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064B040E22CD04900030D2C8 /* AppDelegate.swift */; };
+		064B041422CD04900030D2C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064B041222CD04900030D2C8 /* Main.storyboard */; };
+		064B041622CD04910030D2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064B041522CD04910030D2C8 /* Assets.xcassets */; };
+		064B041922CD04910030D2C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064B041722CD04910030D2C8 /* LaunchScreen.storyboard */; };
+		064B042422CD04910030D2C8 /* DucAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064B042322CD04910030D2C8 /* DucAppTests.swift */; };
+		064B042F22CD04910030D2C8 /* DucAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064B042E22CD04910030D2C8 /* DucAppUITests.swift */; };
+		064B043E22CD0C5A0030D2C8 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064B043D22CD0C5A0030D2C8 /* Pet.swift */; };
+		064B044022CD0D850030D2C8 /* SimpleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064B043F22CD0D850030D2C8 /* SimpleData.swift */; };
+		064B044222CD0E440030D2C8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064B044122CD0E440030D2C8 /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		064B042022CD04910030D2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 064B040322CD04900030D2C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 064B040A22CD04900030D2C8;
+			remoteInfo = DucApp;
+		};
+		064B042B22CD04910030D2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 064B040322CD04900030D2C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 064B040A22CD04900030D2C8;
+			remoteInfo = DucApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064B040B22CD04900030D2C8 /* DucApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DucApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		064B040E22CD04900030D2C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		064B041322CD04900030D2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		064B041522CD04910030D2C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		064B041822CD04910030D2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		064B041A22CD04910030D2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		064B041F22CD04910030D2C8 /* DucAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DucAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		064B042322CD04910030D2C8 /* DucAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DucAppTests.swift; sourceTree = "<group>"; };
+		064B042522CD04910030D2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		064B042A22CD04910030D2C8 /* DucAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DucAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		064B042E22CD04910030D2C8 /* DucAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DucAppUITests.swift; sourceTree = "<group>"; };
+		064B043022CD04910030D2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		064B043D22CD0C5A0030D2C8 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		064B043F22CD0D850030D2C8 /* SimpleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleData.swift; sourceTree = "<group>"; };
+		064B044122CD0E440030D2C8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		064B040822CD04900030D2C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064B041C22CD04910030D2C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064B042722CD04910030D2C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064B040222CD04900030D2C8 = {
+			isa = PBXGroup;
+			children = (
+				064B040D22CD04900030D2C8 /* DucApp */,
+				064B042222CD04910030D2C8 /* DucAppTests */,
+				064B042D22CD04910030D2C8 /* DucAppUITests */,
+				064B040C22CD04900030D2C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		064B040C22CD04900030D2C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				064B040B22CD04900030D2C8 /* DucApp.app */,
+				064B041F22CD04910030D2C8 /* DucAppTests.xctest */,
+				064B042A22CD04910030D2C8 /* DucAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		064B040D22CD04900030D2C8 /* DucApp */ = {
+			isa = PBXGroup;
+			children = (
+				064B041222CD04900030D2C8 /* Main.storyboard */,
+				064B044122CD0E440030D2C8 /* TableViewController.swift */,
+				064B040E22CD04900030D2C8 /* AppDelegate.swift */,
+				064B043C22CD0A3D0030D2C8 /* Models */,
+				064B041522CD04910030D2C8 /* Assets.xcassets */,
+				064B041722CD04910030D2C8 /* LaunchScreen.storyboard */,
+				064B041A22CD04910030D2C8 /* Info.plist */,
+			);
+			path = DucApp;
+			sourceTree = "<group>";
+		};
+		064B042222CD04910030D2C8 /* DucAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				064B042322CD04910030D2C8 /* DucAppTests.swift */,
+				064B042522CD04910030D2C8 /* Info.plist */,
+			);
+			path = DucAppTests;
+			sourceTree = "<group>";
+		};
+		064B042D22CD04910030D2C8 /* DucAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				064B042E22CD04910030D2C8 /* DucAppUITests.swift */,
+				064B043022CD04910030D2C8 /* Info.plist */,
+			);
+			path = DucAppUITests;
+			sourceTree = "<group>";
+		};
+		064B043C22CD0A3D0030D2C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				064B043D22CD0C5A0030D2C8 /* Pet.swift */,
+				064B043F22CD0D850030D2C8 /* SimpleData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		064B040A22CD04900030D2C8 /* DucApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064B043322CD04910030D2C8 /* Build configuration list for PBXNativeTarget "DucApp" */;
+			buildPhases = (
+				064B040722CD04900030D2C8 /* Sources */,
+				064B040822CD04900030D2C8 /* Frameworks */,
+				064B040922CD04900030D2C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DucApp;
+			productName = DucApp;
+			productReference = 064B040B22CD04900030D2C8 /* DucApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		064B041E22CD04910030D2C8 /* DucAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064B043622CD04910030D2C8 /* Build configuration list for PBXNativeTarget "DucAppTests" */;
+			buildPhases = (
+				064B041B22CD04910030D2C8 /* Sources */,
+				064B041C22CD04910030D2C8 /* Frameworks */,
+				064B041D22CD04910030D2C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				064B042122CD04910030D2C8 /* PBXTargetDependency */,
+			);
+			name = DucAppTests;
+			productName = DucAppTests;
+			productReference = 064B041F22CD04910030D2C8 /* DucAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		064B042922CD04910030D2C8 /* DucAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064B043922CD04910030D2C8 /* Build configuration list for PBXNativeTarget "DucAppUITests" */;
+			buildPhases = (
+				064B042622CD04910030D2C8 /* Sources */,
+				064B042722CD04910030D2C8 /* Frameworks */,
+				064B042822CD04910030D2C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				064B042C22CD04910030D2C8 /* PBXTargetDependency */,
+			);
+			name = DucAppUITests;
+			productName = DucAppUITests;
+			productReference = 064B042A22CD04910030D2C8 /* DucAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		064B040322CD04900030D2C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "DUC SKT";
+				TargetAttributes = {
+					064B040A22CD04900030D2C8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					064B041E22CD04910030D2C8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 064B040A22CD04900030D2C8;
+					};
+					064B042922CD04910030D2C8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 064B040A22CD04900030D2C8;
+					};
+				};
+			};
+			buildConfigurationList = 064B040622CD04900030D2C8 /* Build configuration list for PBXProject "DucApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 064B040222CD04900030D2C8;
+			productRefGroup = 064B040C22CD04900030D2C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				064B040A22CD04900030D2C8 /* DucApp */,
+				064B041E22CD04910030D2C8 /* DucAppTests */,
+				064B042922CD04910030D2C8 /* DucAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		064B040922CD04900030D2C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064B041922CD04910030D2C8 /* LaunchScreen.storyboard in Resources */,
+				064B041622CD04910030D2C8 /* Assets.xcassets in Resources */,
+				064B041422CD04900030D2C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064B041D22CD04910030D2C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064B042822CD04910030D2C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		064B040722CD04900030D2C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064B040F22CD04900030D2C8 /* AppDelegate.swift in Sources */,
+				064B044022CD0D850030D2C8 /* SimpleData.swift in Sources */,
+				064B043E22CD0C5A0030D2C8 /* Pet.swift in Sources */,
+				064B044222CD0E440030D2C8 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064B041B22CD04910030D2C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064B042422CD04910030D2C8 /* DucAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064B042622CD04910030D2C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064B042F22CD04910030D2C8 /* DucAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		064B042122CD04910030D2C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 064B040A22CD04900030D2C8 /* DucApp */;
+			targetProxy = 064B042022CD04910030D2C8 /* PBXContainerItemProxy */;
+		};
+		064B042C22CD04910030D2C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 064B040A22CD04900030D2C8 /* DucApp */;
+			targetProxy = 064B042B22CD04910030D2C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		064B041222CD04900030D2C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				064B041322CD04900030D2C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		064B041722CD04910030D2C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				064B041822CD04910030D2C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		064B043122CD04910030D2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		064B043222CD04910030D2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		064B043422CD04910030D2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DucApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DucApp.com.ip.DucApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		064B043522CD04910030D2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DucApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DucApp.com.ip.DucApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		064B043722CD04910030D2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DucAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DucApp.com.ip.DucAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DucApp.app/DucApp";
+			};
+			name = Debug;
+		};
+		064B043822CD04910030D2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DucAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DucApp.com.ip.DucAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DucApp.app/DucApp";
+			};
+			name = Release;
+		};
+		064B043A22CD04910030D2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DucAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DucApp.com.ip.DucAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DucApp;
+			};
+			name = Debug;
+		};
+		064B043B22CD04910030D2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DucAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DucApp.com.ip.DucAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DucApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		064B040622CD04900030D2C8 /* Build configuration list for PBXProject "DucApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064B043122CD04910030D2C8 /* Debug */,
+				064B043222CD04910030D2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064B043322CD04910030D2C8 /* Build configuration list for PBXNativeTarget "DucApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064B043422CD04910030D2C8 /* Debug */,
+				064B043522CD04910030D2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064B043622CD04910030D2C8 /* Build configuration list for PBXNativeTarget "DucAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064B043722CD04910030D2C8 /* Debug */,
+				064B043822CD04910030D2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064B043922CD04910030D2C8 /* Build configuration list for PBXNativeTarget "DucAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064B043A22CD04910030D2C8 /* Debug */,
+				064B043B22CD04910030D2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 064B040322CD04900030D2C8 /* Project object */;
+}
